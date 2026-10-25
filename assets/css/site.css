@@ -763,3 +763,5 @@ main { background: #fff; }
   .ftr__bottom-in { flex-direction: column; gap: 12px; }
   .ftr__legal-l { flex-direction: column; }
 }
+/* the quote form sits right above the footer on these pages, so the footer's quote row would repeat it */
+.page-home .ftr__cta, .page-quote .ftr__cta { display: none; }
